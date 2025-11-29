@@ -54,6 +54,29 @@ O cliente acessa sua conta informando o número da conta e a senha correspondent
   <li>Impressões formatadas para tabelas e extratos</li>
 </ul>
 
-<p>
-Este projeto demonstra conceitos fundamentais da linguagem C aplicados a um sistema funcional e interativo.
-</p>
+<h2>🚀 Como acessar e usar</h2>
+
+<h3>1️⃣ Compilar o projeto</h3>
+<p>Use GCC ou qualquer compilador C compatível:</p>
+<pre><code>gcc sistema_bancario.c -o banco
+</code></pre>
+
+<h3>2️⃣ Executar o programa</h3>
+<pre><code>./banco
+</code></pre>
+
+<h3>3️⃣ Navegação no sistema</h3>
+<ul>
+  <li>Escolha entre <strong>Modo Administrador</strong> ou <strong>Modo Cliente</strong></li>
+  <li>No modo Administrador, digite a senha <code>123</code></li>
+  <li>No modo Cliente, informe número da conta + senha cadastrada</li>
+  <li>Siga o menu para realizar ações como saque, depósito ou empréstimo</li>
+</ul>
+
+<h3>4️⃣ Saindo do sistema</h3>
+<p>Basta selecionar a opção “Sair” nos menus ou encerrar no terminal.</p>
+
+<p>Esse sistema é um exemplo prático de lógica de programação aplicando estruturas fundamentais em C.</p>
+
+<img width="377" height="616" alt="image" src="https://github.com/user-attachments/assets/db70a128-34e8-4d26-aeda-6c940b45a695" />
+
